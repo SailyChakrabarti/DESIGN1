@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+   
+ul li{
+    display: inline-block;
+    margin: 1rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav1{
+    background-color: black;
+    color: white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+i{
+    color: green;
+    background-color: black;
+
+}
+img{
+    height: 4rem;
+    width: 4rem;
+}
+.nav1{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    
+    justify-content: space-between;
+}
+.icon{
+ order: 1;
+ flex: 1;
+ justify-self: flex-start;
+
+}
+.contact{
+order: 2;
+flex: 1;
+justify-self: flex-end;
+
+}
+.nav2{
+   
+  display: flex;
+  flex-direction: row;
+  padding-left: 3rem;
+  padding-right: 3rem;
+    
+   
+  
+}
+.logo{
+    flex: 4;
+justify-self: flex-start;
+
+
+}
+.navlink{
+    flex: 10;
+    justify-self: flex-end;
+    display: inline-block;
+    
+   
+   
+}
+nav .nav2:second-child{
+    background-color: green;
+    color: white;
+}
+.banner{
+    background-image: url('./banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(40%);
+    height: 15rem;
+    width: 100%;
+    padding-top: 10rem;
+    padding-bottom: 0;
+    font-weight: 700;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    
+}
+.banner h1{
+    color: green;
+    
+}
+.banner p{
+    color: white;
+    
+}
+.section1{
+    background-color: rgb(216, 215, 215);
+    color: black;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+.section1 h1{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.section1 p{
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+.card1 i, .card2 i, .card3 i{
+background-color: rgb(240, 236, 236);
+color: green;
+padding: 1rem;
+font-size: 3rem;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex: 20;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card1, .card2, .card3{
+    flex: 5;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgb(240, 236, 236);
+    border: 1px solid rgb(156, 155, 155);
+    
+}
+hr{
+    /* width: 18rem; */
+    display: block;
+    margin: auto;
+    justify-items: center;
+    justify-content: center;
+    color: green;
+    width: 4rem;
+   
+}
+.section2{
+    background-color: rgb(99, 164, 99);
+    color: black;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+.section2 h1{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.section2 p{
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+.section3{
+    background-color: rgb(228, 234, 228);
+    color: black;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+.section3 h1{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.section3 p{
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+.arrow{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    
+}
+.arrow i{
+    background-color:  rgb(228, 234, 228);
+color: green;
+padding-left: 2rem;
+font-size: 1.2rem;
+}
+.business{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.businesstext{
+    flex: 1;
+    order: 1;
+    text-align: center;
+   padding: 2rem;
+    
+
+}
+.businessimg{
+    flex: 1;
+    order: 2;
+    height: 30rem;
+    width: 25rem;
+    padding: 1rem;
+   
+}
+.card1 img, .card2 img, .card3 img{
+    width: 100%;
+    height: 10rem;
+}
+button{
+    background-color: rgb(94, 190, 94);
+    color: white;
+    border: rgb(94, 190, 94);
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+
+
+
+}
+h1, h3{
+    font-weight: 600;
+   
+}
+.footer1{
+ background-color: rgb(35, 33, 33);
+ color: rgb(168, 159, 159);
+ 
+
+ display: flex;
+ flex-direction: row;
+ flex: 10;
+ padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.footera{
+    order: 1;
+    flex: 1;
+    padding: 2rem;
+   }
+   .footerb{
+    order: 1;
+    flex: 1;
+    padding: 2rem;
+   }
+   .footerc{
+    order: 1;
+    flex: 1;
+    padding: 2rem;
+   }
+   .footerd{
+    order: 1;
+    flex: 1;
+    padding: 2rem;
+   }
+.footer2{
+    height: 6rem;
+    background-color: rgb(35, 33, 33);
+    color: rgb(168, 159, 159);
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.footer2 p{
+    float: left;
+   
+    background-color: rgb(35, 33, 33);
+    color: rgb(168, 159, 159);
+   
+}
+.footer2 .fa-brands{
+   
+    padding: 1rem;
+    float: right;
+    background-color: rgb(35, 33, 33);
+    color: rgb(168, 159, 159);
+}
